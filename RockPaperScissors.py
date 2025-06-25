@@ -16,7 +16,7 @@ while True:
 
     if system_choice == user_choice:
         print("It's a tie.")
-    if (user_choice == "Rock" and system_choice== "Scissors") or (user_choice == "Scissors" and system_choice== "Paper") or (user_choice == "Paper" and system_choice== "Rock"):
+    if (user_choice == "Rock" and system_choice== "Scissors") or (user_choice == "Scissors" and system_choice== "Paper") or (user_choice=="Paper" and system_choice=="Rock") :
         print("You win!!. Yeee")
 
     else:
